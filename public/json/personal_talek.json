@@ -5,7 +5,7 @@
  ],
  "rules": [
   {
-   "description": "Both command keys and letter inserts the accented RO symbol (Unicode Hex Input required).",
+   "description": "Both command keys and letter inserts the accented RO symbol (DefaultKeyBinding.dict required).",
    "manipulators": [
     {
      "from": {
