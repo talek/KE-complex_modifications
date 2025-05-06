@@ -7,6 +7,7 @@ function main() {
         rules: [
           roSymbols(),
           ctrlExtended(),
+          capslockReplacement(),
           appLauncher()
         ]
       },
@@ -203,7 +204,7 @@ function ctrlExtended() {
   }
 }
 
-function CapslockReplacemnt() {
+function capslockReplacement() {
   return {
       "description": "Change double tap right ⇧ key to caps lock",
       "manipulators": [
